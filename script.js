@@ -1,14 +1,15 @@
-div = document.querySelector("div");
+const redBtn = document.querySelector('.js-red-button')
+const blueBtn = document.querySelector('.js-blue-button')
 
-div.addEventListener("mouseover", changeBackgroundColorToBlue);
-div.addEventListener("mouseout", changeBackgroundColorToWhite);
+redBtn.addEventListener('click', changeBackgroundColorToRed)
+blueBtn.addEventListener('click', changeBackgroundColorToBlue)
 
-function changeBackgroundColorToBlue(){
+function changeBackgroundColorToBlue() {
   // No need to change the content of this function. Don't worry if this code is new to you.
-  document.body.style.backgroundColor = "blue";
+  document.body.style.backgroundColor = 'blue';
 }
 
-function changeBackgroundColorToWhite(){
+function changeBackgroundColorToRed() {
   // No need to change the content of this function. Don't worry if this code is new to you.
-  document.body.style.backgroundColor = "white";
+  document.body.style.backgroundColor = 'red';
 }
