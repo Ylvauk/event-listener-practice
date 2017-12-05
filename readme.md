@@ -6,7 +6,7 @@ Inside of `index.html`, you'll find two buttons, one that should turn the backgr
 
 You have been provided with two functions -- `changeBackgroundColorToBlue` and `changeBackgroundColorToRed` -- that can be used as callbacks. You do not need to change the content of these functions.  
 
-When you're done, [it should display this functionality](http://ga-wdi-exercises.github.io/event-listener-practice/).
+When you're done, [it should display this functionality](https://git.generalassemb.ly/pages/ga-wdi-exercises/event-listener-practice/).
 
 # Bonus:
 
