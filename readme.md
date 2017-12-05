@@ -11,3 +11,4 @@ When you're done, [it should display this functionality](http://ga-wdi-exercises
 # Bonus:
 
 If you finish early, see if you can implement it so that the background color changes when the user hovers over one of the buttons.
+   
