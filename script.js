@@ -12,3 +12,10 @@ function changeBackgroundColorToRed() {
 
 const redButton = document.querySelector("button.red.button.js-red-button");
 const blueButton = document.querySelector("button.blue");
+
+// Add event listeners to each button, using the given functions as Event Handlers
+
+redButton.addEventListener("click", changeBackgroundColorToRed);
+blueButton.addEventListener("click", changeBackgroundColorToBlue);
+
+redButton.addEventListener("mouseover", changeBackgroundColorToRed);
